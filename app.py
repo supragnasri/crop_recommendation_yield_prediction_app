@@ -14,7 +14,7 @@ from sklearn.preprocessing import LabelEncoder
 # Load datasets
 # -----------------------------
 crop_data = pd.read_csv("Crop_recommendation.csv")
-yield_data = pd.read_csv(r"C:\Users\SUPRAGNA SRI\ML_Project_1\crop_yield.csv")
+yield_data = pd.read_csv("crop_yield.csv")
 
 # -----------------------------
 # CROP RECOMMENDATION MODEL
@@ -181,4 +181,5 @@ st.sidebar.write(
 st.sidebar.write(
     "Linear Regression:",
     mean_squared_error(y_test_y, lr_pred_y)
+
 )
