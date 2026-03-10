@@ -14,3 +14,7 @@ Features:
 - Crop recommendation
 - Yield prediction
 - Streamlit web interface
+
+
+live app:
+https://croprecommendationyieldpredictionapp-xzhky9kggxvlv2rf69td9z.streamlit.app/
